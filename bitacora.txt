@@ -6,3 +6,6 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (06)   git add bitacora.txt
+ (07)   git commit -m "Paso 7"
+ (08)   git checkout Lola
