@@ -9,3 +9,10 @@
  (06)   git add bitacora.txt
  (07)   git commit -m "Paso 7"
  (08)   git checkout Lola
+ (10)   git add bitacora.txt
+ (11)   git commit -m "Paso 11"
+ (20)   git add bitacora.txt
+ (21)   git commit -m "Paso 21"
+ (22)   git checkout Lola
+ (23)   git stash apply
+ 
