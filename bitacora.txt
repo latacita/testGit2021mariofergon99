@@ -19,4 +19,11 @@
 (14)                                La fusion de la rama Lola con
                                     master en este momento se puede
                                     realizar por fast forward.
-                                    
+ (16)   git add bitacora.txt
+ (17)   git commit -m "Paso 17"
+ (18)   git merge Paco              Nos da conflictos en el fichero
+                                    bitacora.txt, los arreglamos y
+                                    tras esto hacemos git add del
+                                    fichero bitacora.txt y git commit
+                                    para añadir los cambios. La fusion
+                                    se hace de manera recursiva.
