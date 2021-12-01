@@ -6,17 +6,23 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-(01)   git clone                    Se realiza por con la url de ssh
-(02)   git branch Paco
-(03)   git branch Lola
-(04)   git checkout Paco
-(13)   git checkout master          Aqui nos da un error ya que no
+
+ (01)   git clone                    Se realiza por con la url de ssh
+ (02)   git branch Paco
+ (03)   git branch Lola
+ (04)   git checkout Paco
+ (06)   git add bitacora.txt
+ (07)   git commit -m "Paso 7"
+ (08)   git checkout Lola
+ (10)   git add bitacora.txt
+ (11)   git commit -m "Paso 11"
+ (13)   git checkout master          Aqui nos da un error ya que no
                                     tenemos los cambios en ningun
                                     commit por lo que debemos de
                                     hacer previamente git stash
                                     y tras esto checkout a la rama
                                     master
-(14)                                La fusion de la rama Lola con
+ (14)                                La fusion de la rama Lola con
                                     master en este momento se puede
                                     realizar por fast forward.
  (16)   git add bitacora.txt
@@ -27,3 +33,8 @@
                                     fichero bitacora.txt y git commit
                                     para añadir los cambios. La fusion
                                     se hace de manera recursiva.
+
+ (20)   git add bitacora.txt
+ (21)   git commit -m "Paso 21"
+ (22)   git checkout Lola
+ (23)   git stash apply
