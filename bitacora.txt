@@ -1,17 +1,22 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Fernández González, Mario            %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
- (13)   git checkout master          Aqui nos da un error ya que no
-                                     tenemos los cambios en ningun
-                                     commit por lo que debemos de
-                                     hacer previamente git stash
-                                     y tras esto checkout a la rama
-                                     master
- (14)                                La fusion de la rama Lola con
-                                     master en este momento se puede
-                                     realizar por fast forward.
+(01)   git clone                    Se realiza por con la url de ssh
+(02)   git branch Paco
+(03)   git branch Lola
+(04)   git checkout Paco
+(13)   git checkout master          Aqui nos da un error ya que no
+                                    tenemos los cambios en ningun
+                                    commit por lo que debemos de
+                                    hacer previamente git stash
+                                    y tras esto checkout a la rama
+                                    master
+(14)                                La fusion de la rama Lola con
+                                    master en este momento se puede
+                                    realizar por fast forward.
+                                    
